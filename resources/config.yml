@@ -1,0 +1,12 @@
+# If Mode = "Whitelist", all worlds in "Worlds" will have no void. If Mode = "Blacklist", all worlds NOT in "Worlds" will have no void.
+Mode: Blacklist
+
+# If "TeleportToDefaultWorld" = true, players who fall into the void will get teleported to the default world's spawn. If it equals false, the player will get teleported to the world spawn they are currently in.
+ToDefaultWorld: false
+
+# "Worlds" are the worlds that will/won't have a void, dependiong on the mode. If you want all worlds to have no void, turn on Blacklist mode and leave Worlds empty.
+# Heres an example:
+# Mode: Blacklist
+# Worlds: ["SkyBlock", "Mine", "Lobby"]
+# This will make it so all worlds except "SkyBlock", "Mine", and "Lobby" won't have a void.
+Worlds: []
